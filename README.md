@@ -53,6 +53,10 @@ npx serve out
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which installs dependencies, runs `npm run build`, and publishes the `out/` directory to GitHub Pages. The repository's GitHub Pages source (Settings > Pages) must be set to "GitHub Actions" for this to take effect; this is a one-time setting, not something the workflow configures itself.
 
+Go to https://github.com/Lyravesper/Lyravesper.github.io/settings/pages
+
+Under Build and deployment → Source, change the dropdown from "Deploy from a branch" (or whatever it's on) to "GitHub Actions"
+
 ## Credits
 
 Code written by @GitGudShu.
