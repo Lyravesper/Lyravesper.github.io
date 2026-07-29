@@ -22,6 +22,33 @@ export const passions: Record<string, DetailPage> = {
         ],
       },
       {
+        columns: [
+          {
+            player: {
+              title: "Spells That Bring Happiness",
+              composer: "Yuka Kitamura <3",
+              cover: "/assets/cover.jpg",
+              youtubeUrl:
+                "https://www.youtube.com/watch?v=G-8C8Zy3OrY&list=RDG-8C8Zy3OrY",
+            },
+            width: 40,
+          },
+          {
+            text: [
+              { subtitle: "Trouvé un soir à minuit passé, écouté depuis en boucle" },
+              {
+                paragraph:
+                  "Découvert en cherchant tout autre chose, et depuis impossible de faire autrement : dès que ça commence, tout le reste attend. Aucune idée de pourquoi celle-là en particulier — certaines chansons choisissent leur moment, pas l'inverse.",
+              },
+              {
+                paragraph:
+                  "Cliquez sur la pochette pour l'écouter, ou directement sur la barre de progression pour sauter au meilleur passage — comme tout le monde le fait, en vrai.",
+              },
+            ],
+          },
+        ],
+      },
+      {
         width: 70,
         columns: [
           {

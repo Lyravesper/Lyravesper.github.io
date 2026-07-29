@@ -3,9 +3,19 @@ export type TextBlock =
   | { paragraph: string }
   | { list: string[] }
 
+export type MediaPlayer = {
+  title: string
+  composer: string
+  /** Image or gif shown as the cover art. */
+  cover: string
+  /** Any standard YouTube URL (watch, youtu.be, embed — extra query params like a playlist are ignored). */
+  youtubeUrl: string
+}
+
 export type Column =
   | { image: string; alt?: string; width?: number }
   | { text: TextBlock[]; width?: number }
+  | { player: MediaPlayer; width?: number }
 
 export type Row = {
   /** Row's own width, as % of the page content area, centered. Default 100. */

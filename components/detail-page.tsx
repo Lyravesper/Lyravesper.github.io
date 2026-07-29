@@ -2,6 +2,7 @@ import type { CSSProperties } from "react"
 import type { DetailPage } from "@/lib/detail-content"
 import { resolveColumnWidths } from "@/lib/detail-content"
 import { TextBlocks } from "@/lib/rich-text"
+import { MediaPlayerCard } from "@/components/media-player"
 
 export function DetailPageContent({ page }: { page: DetailPage }) {
   return (
@@ -28,6 +29,8 @@ export function DetailPageContent({ page }: { page: DetailPage }) {
                         className="w-full h-auto rounded-lg shadow-md"
                         loading="lazy"
                       />
+                    ) : "player" in column ? (
+                      <MediaPlayerCard player={column.player} />
                     ) : (
                       <TextBlocks blocks={column.text} />
                     )}
