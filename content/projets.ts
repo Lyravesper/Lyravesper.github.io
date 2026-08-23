@@ -28,9 +28,9 @@ export const projets: Record<string, DetailPage> = {
       {
         columns: [
           {
-            image: "/assets/r5.jpg",
+            image: "/assets/r3.jpg",
             alt: "Poste de montage vidéo avec plusieurs écrans",
-            width: 40,
+            width: 50,
           },
           {
             text: [
@@ -41,10 +41,10 @@ export const projets: Record<string, DetailPage> = {
               },
               {
                 paragraph:
-                  "Le montage se fait sous **Adobe Premiere Pro**, avec un luxe de patience pour synchroniser le son du micro-cravate et celui des caméras. Depuis, retour à une seule caméra fixe pour les événements suivants : moins de rushes, plus de café bu pendant qu'elle tourne toute seule.",
+                  "Le montage se fait sous **Adobe Premiere Pro**, avec un luxe de patience pour synchroniser le son du micro-cravate et celui des caméras. Depuis, retour à une seule caméra fixe pour les événements suivants : moins de rushes, plus de café bu pendant qu'elle tourne toute seule. J'adore mon frère.",
               },
             ],
-            width: 60,
+            width: 50,
           },
         ],
       },
